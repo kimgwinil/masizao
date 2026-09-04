@@ -1,0 +1,8 @@
+{
+  "name": "MASIZAO (마시자오)",
+  "description": "마시자오 미강 블렌디드 워터",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
