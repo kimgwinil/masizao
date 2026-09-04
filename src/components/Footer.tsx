@@ -1,4 +1,5 @@
 import { Phone, MessageCircle, Mail } from 'lucide-react';
+import { images } from '../lib/images';
 
 export function Footer() {
   return (
@@ -7,7 +8,7 @@ export function Footer() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-space-2xl mb-space-2xl">
           <div className="lg:col-span-5 flex flex-col gap-space-md">
             <div className="flex items-center gap-space-xs">
-              <img alt="MASIZAO Logo" className="h-7 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WoJ_cLamRSe6eT9Woonj958PptZI-LvAYa4H5oNDgzR0c1cpPS4O2cW8QjkaNQe0bNQ9q4wf2jpgxlwzJN5xzFvThYfGs7j4uqT3URt03X__Z7U-V2EHKPoE42NvA3mjn1kH9lt6ooCZuJDHXRqgj-MD8x_suMhJOyA1o3WdRh0WbbAEefMIOV1HPQ9jaFpAfr67MtS5KC00j2a8sYC5hTy3XWOuxVcvfBw-N7Ax2AfiN66dbjfbTtsgU"/>
+              <img alt="MASIZAO Logo" className="h-7 w-auto object-contain" src={images.logo}/>
               <span className="font-headline-sm text-headline-sm tracking-tight text-primary font-bold">마시자오 (MASIZAO)</span>
             </div>
             <p className="font-body-sm text-body-sm text-on-surface-variant max-w-md leading-relaxed">
