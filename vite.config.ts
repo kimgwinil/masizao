@@ -5,6 +5,8 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    // 가비아 웹호스팅처럼 하위 경로에 올려도 깨지지 않도록 상대 경로로 빌드한다.
+    base: './',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
