@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="MASIZAO">
+  <defs>
+    <linearGradient id="drop" x1="16" y1="6" x2="48" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00BCD4"/>
+      <stop offset="1" stop-color="#680081"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#FFFFFF"/>
+  <path fill="url(#drop)" d="M32 6c9.6 11.2 16 19.9 16 27.4C48 44.2 40.8 52 32 52s-16-7.8-16-18.6C16 25.9 22.4 17.2 32 6z"/>
+  <path fill="#FFFFFF" fill-opacity=".55" d="M25.6 32.4c0-4.2 2.2-8.4 5.4-12.6-6 5.6-9 10.6-9 15 0 4.3 2.6 7.9 6.4 9.3-1.8-2.9-2.8-7-2.8-11.7z"/>
+</svg>

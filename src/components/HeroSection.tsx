@@ -1,11 +1,12 @@
 import { Zap, ShoppingBag, Star } from 'lucide-react';
+import { images } from '../lib/images';
 
 export function HeroSection() {
   return (
     <section className="relative w-full overflow-hidden -mt-20 pt-24 pb-20 lg:pb-32 bg-surface-container-lowest">
       {/* Fluid background splash image */}
       <div className="absolute inset-0 z-0">
-        <img alt="마시자오 청량한 물방울 스플래시" className="w-full h-full object-cover object-center transform scale-105 filter brightness-105" src="https://lh3.googleusercontent.com/aida/AEtjO1W2YX1dCxNdINMONGTGOqePn8Tqhu6xiZZpnLVUYqCURghziuU1rDdvjLykiOIlVMMpDdiT9geyhJulTpGxLH3HaBGBSObSxWwJiuSAYZyOWcyAqkVAElP9V8gI-5k-iPqnNHaNVPsGgekAR6MkFcvnSweX9np39CjeRGM3dj_KzH-8fxp1fDd69BJHGi3oSP3pNphoh6X7EsGYBLrs7nZ_MZZDuAzPO7vMd86FYobvuxyBYL9Du_UHUHE"/>
+        <img alt="마시자오 청량한 물방울 스플래시" className="w-full h-full object-cover object-center transform scale-105 filter brightness-105" src={images.heroSplash}/>
         <div className="absolute inset-0 bg-gradient-to-r from-surface-container-lowest/95 via-surface-container-lowest/80 to-transparent lg:w-3/4"></div>
         <div className="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-transparent to-surface-container-lowest/40"></div>
       </div>

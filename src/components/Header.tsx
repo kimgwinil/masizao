@@ -1,4 +1,5 @@
 import { ShoppingBag, User } from 'lucide-react';
+import { images } from '../lib/images';
 
 export function Header() {
   return (
@@ -6,7 +7,7 @@ export function Header() {
       <div className="h-20 max-w-[1280px] mx-auto px-gutter-mobile lg:px-gutter-desktop flex items-center justify-between gap-space-md">
         <div className="flex items-center gap-space-lg">
           <a className="flex items-center gap-space-xs transition-opacity hover:opacity-90" data-path="home" href="#">
-            <img alt="MASIZAO Logo" className="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WoJ_cLamRSe6eT9Woonj958PptZI-LvAYa4H5oNDgzR0c1cpPS4O2cW8QjkaNQe0bNQ9q4wf2jpgxlwzJN5xzFvThYfGs7j4uqT3URt03X__Z7U-V2EHKPoE42NvA3mjn1kH9lt6ooCZuJDHXRqgj-MD8x_suMhJOyA1o3WdRh0WbbAEefMIOV1HPQ9jaFpAfr67MtS5KC00j2a8sYC5hTy3XWOuxVcvfBw-N7Ax2AfiN66dbjfbTtsgU"/>
+            <img alt="MASIZAO Logo" className="h-8 w-auto object-contain" src={images.logo}/>
             <span className="font-headline-sm text-headline-sm tracking-tight text-primary font-bold">MASIZAO</span>
           </a>
           <nav className="hidden lg:flex items-center gap-space-xl ml-space-md">

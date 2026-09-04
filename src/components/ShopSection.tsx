@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { ShieldCheck, RefreshCw, ShoppingBag, Gift, Check, Minus, Plus, ShoppingCart, CreditCard, Truck, Shield, Leaf } from 'lucide-react';
+import { images } from '../lib/images';
 
 export function ShopSection() {
   const [currentType, setCurrentType] = useState<'sub' | 'once'>('sub');
@@ -27,7 +28,7 @@ export function ShopSection() {
           {/* Left: Product High-Res Bottle Visual Display */}
           <div className="lg:col-span-6 flex flex-col items-center relative">
             <div className="w-full max-w-md aspect-[3/4] rounded-xl overflow-hidden shadow-2xl relative bg-surface-container-low flex items-center justify-center group">
-              <img alt="마시자오 미강 블렌디드 워터 350ml 투명 PET 실물" className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBcDpaxFMBcTydlA_8xt7kkX9KuOK5EyIC_v6ZLmosN_CVEhhV2oYO_Scaq2dEL6IamlkZqJU7kICf3l8YkIkNFCR6oVr5J13l_bysqlX6dFgjcPgaULQTjpduqVJl1rldi-_IpX2jtPVPFL4f9X3mbeClDmfVDLZM06vtLz-USmIK8zZFcHAcuD_HqqUvkg6Ti2MNVgUcATcjjAH-fs6bzWw0ENAcmOVAXB1UoZhBWJDLRHVdyu75C9S_rGZgAQaK9ew"/>
+              <img alt="마시자오 미강 블렌디드 워터 350ml 투명 PET 실물" className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500" src={images.productBundle}/>
               <div className="absolute top-space-md left-space-md flex flex-col gap-space-xs">
                 <span className="px-space-md py-space-xxs rounded-full bg-primary text-on-primary font-label-sm text-label-sm font-bold shadow-md">
                   BEST SELLER
@@ -45,10 +46,10 @@ export function ShopSection() {
             {/* Thumbnail Strip */}
             <div className="flex items-center gap-space-sm mt-space-md">
               <div className="w-16 h-16 rounded-lg overflow-hidden ring-2 ring-primary p-0.5 bg-surface-container-lowest cursor-pointer">
-                <img alt="썸네일 1" className="w-full h-full object-cover rounded-md" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCRZ4WwRfMLR2FjJxtmGfk-9sre4fho_W9k1v-h4WKc9K6FmxEZn8f9b5qn0q2dGwnziFLZ6Y_k52d1wxyMlsaJ8bcz6UwXzU7auI-in6Fc7H5ik8vE8TNgA4tX9yDghDJY4lTld_Cz4qbQh8epoBuaZMtL7I5YLS2_UlQYSoHn6VE5R0OeoND4sywyQ07xQTXzWTPxB5ymjCrxBCO4GDE8gyQ_26UZ4JOHYTAb7YOvBescJoG6pgp70seLKMkb6JTV5w"/>
+                <img alt="썸네일 1" className="w-full h-full object-cover rounded-md" src={images.productThumb}/>
               </div>
               <div className="w-16 h-16 rounded-lg overflow-hidden bg-surface-container-low p-0.5 cursor-pointer opacity-70 hover:opacity-100 transition-opacity">
-                <img alt="썸네일 2" className="w-full h-full object-cover rounded-md" src="https://lh3.googleusercontent.com/aida/AEtjO1W2YX1dCxNdINMONGTGOqePn8Tqhu6xiZZpnLVUYqCURghziuU1rDdvjLykiOIlVMMpDdiT9geyhJulTpGxLH3HaBGBSObSxWwJiuSAYZyOWcyAqkVAElP9V8gI-5k-iPqnNHaNVPsGgekAR6MkFcvnSweX9np39CjeRGM3dj_KzH-8fxp1fDd69BJHGi3oSP3pNphoh6X7EsGYBLrs7nZ_MZZDuAzPO7vMd86FYobvuxyBYL9Du_UHUHE"/>
+                <img alt="썸네일 2" className="w-full h-full object-cover rounded-md" src={images.heroSplash}/>
               </div>
               <div className="w-16 h-16 rounded-lg overflow-hidden bg-surface-container-high flex items-center justify-center text-secondary font-label-sm text-label-sm font-bold cursor-pointer">
                 +12컷
